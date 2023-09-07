@@ -1,0 +1,35 @@
+:root {
+  --collection-1-max-width-desktop: 1728px;
+  --collection-1-width-phone: 390px;
+  --collection-1-width-desktop: 1440px;
+  --collection-1-max-width-tablet: 1440px;
+  --collection-1-width-tablet: 1728px;
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-collection-1-mode="max">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-collection-1-mode="max"] {
+  --collection-1-max-width-desktop: 1728px;
+  --collection-1-width-phone: 390px;
+  --collection-1-width-desktop: 1440px;
+  --collection-1-max-width-tablet: 1440px;
+  --collection-1-width-tablet: 1728px;
+}
+
+[data-collection-1-mode="min"] {
+  --collection-1-max-width-desktop: 1280px;
+  --collection-1-width-phone: 360px;
+  --collection-1-width-desktop: 1280px;
+  --collection-1-max-width-tablet: 744px;
+  --collection-1-width-tablet: 834px;
+}
