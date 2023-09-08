@@ -62,3 +62,11 @@ p {
     max-width: 1140px;
   }
 }
+"https://github.com/twbs/bootstrap/archive/v4.3.1.zip"
+  dist:             "https://github.com/twbs/bootstrap/releases/download/v4.3.1/bootstrap-4.3.1-dist.zip"
+
+cdn:
+  # See https://www.srihash.org for info on how to generate the hashes
+  css:              "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  css_hash:         "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+  js:               "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
