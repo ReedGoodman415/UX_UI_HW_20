@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../invoice-boilerplate/UX_UI_HW_20"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "UX_UI_HW_20"
+	}
+}
